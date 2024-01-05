@@ -18,28 +18,39 @@
 
 ## ▶️ Execution of the application ▶️
 
-Para executar a aplicação serão necessários alguns pré requisitos:
+To run the application, some prerequisites will be necessary:
 
-1. Instalação da linguagem **Python** (de preferência na versão mais recente).
+1. Installation of the **Python** language (preferably the latest version).
 
-2. Instalação do **Anaconda** que juntamente virá com o **Jupyter Notebook**, de preferência na versão mais recente (a respeito desse requisito fica a sua preferência executar a aplicação em outros ambientes).
+2. Installation of **Anaconda**, which will come with **Jupyter Notebook**, preferably in the latest version (Regarding this requirement, it's up to your preference to run the application in other environments).
 
-3. Instalação das **bibliotecas** mencionadas abaixo:
+3. Installation of the **libraries** mentioned below:
 
-    1. !pip install keras
-    2. !pip install tensorflow
-    3. !pip install sklearn
-    4. !pip install imblearn
-    5. !pip install pandas
+```
+!pip install keras
+!pip install tensorflow
+!pip install sklearn
+!pip install imblearn
+!pip install pandas
+!pip install numpy
+!pip install shap
+!pip install seaborn
+!pip install scikit-plot
+!pip install SimpleFilter
+```
 
-    6. !pip install numpy
-    7. !pip install shap
-    8. !pip install seaborn
-    9. !pip install scikit-plot
-    10. !pip install SimpleFilter
+4. Download the files through the open data platform of the Brazilian Federal Government, the link to which is provided in the notes section of this README.md.
 
-4. Baixar os arquivos por meio da base de dados abertos do Governo Federal Brasileiro, o qual o link encontra-se presente na seção de observações deste README.md.
+5. Place these files inside the **"raw"** folder of the application.
 
-5. Jogar esses arquivos dentro da pasta **"raw"** da aplicação.
+6. Run the scripts in the following sequence:
 
-6. 
+    1. **trusted_script.ipynb** (depending on the type of file you have downloaded, some code snippets may need to be modified in this script).
+
+    2. **refined_script.ipynb**
+
+    3. Run all scripts present in the **"networks_training"** folder.
+
+    4. Run all scripts present in the **"networks_test"** folder.
+
+    5. The **"data_analysis_scripts"** folder contains some analyses about the datasets, so it's up to your discretion whether to execute these scripts.
