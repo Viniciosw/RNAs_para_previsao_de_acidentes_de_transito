@@ -2,6 +2,10 @@
 
 🌟 Repository dedicated to building neural networks for classification/prediction of traffic accidents in the **Amazônia Region**.
 
+🌟 This application is the result of my undergraduate thesis work.
+
+🌟 Title of the work: Artificial Neural Networks to Identify the Main Factors Influencing Severe Accidents on Federal Highways in the Amazônia Region.
+
 🌟 Each code snippet in all scripts is **previously documented**.
 
 ![handshake](images/images_readme/handshake_ia_and_human.png)
